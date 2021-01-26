@@ -1,0 +1,10 @@
+CREATE TABLE	dbo.DimTime (
+	TimeID	INT	NOT NULL IDENTITY(1,1),
+	FullTime TIME NOT NULL,
+	[Hour]	NVARCHAR(10) NOT NULL,
+	[Minute] INT NOT NULL,
+	[Second] INT NOT NULL,
+	[Hour24] INT NOT NULL,
+	[Minute24]	INT	NOT NULL,
+	[Second24]	INT	NOT NULL
+	)
